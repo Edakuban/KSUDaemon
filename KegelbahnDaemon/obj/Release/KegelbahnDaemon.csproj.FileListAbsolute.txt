@@ -1,0 +1,11 @@
+c:\users\tom\documents\visual studio 2012\Projects\KegelbahnDaemon\KegelbahnDaemon\bin\Release\KegelbahnDaemon.exe.config
+c:\users\tom\documents\visual studio 2012\Projects\KegelbahnDaemon\KegelbahnDaemon\bin\Release\Config.xml
+c:\users\tom\documents\visual studio 2012\Projects\KegelbahnDaemon\KegelbahnDaemon\bin\Release\HowTo.txt
+c:\users\tom\documents\visual studio 2012\Projects\KegelbahnDaemon\KegelbahnDaemon\bin\Release\install.bat
+c:\users\tom\documents\visual studio 2012\Projects\KegelbahnDaemon\KegelbahnDaemon\bin\Release\uninstall.bat
+c:\users\tom\documents\visual studio 2012\Projects\KegelbahnDaemon\KegelbahnDaemon\bin\Release\KegelbahnDaemon.exe
+c:\users\tom\documents\visual studio 2012\Projects\KegelbahnDaemon\KegelbahnDaemon\bin\Release\KegelbahnDaemon.pdb
+c:\users\tom\documents\visual studio 2012\Projects\KegelbahnDaemon\KegelbahnDaemon\obj\Release\KegelbahnDaemon.ProjectInstaller.resources
+c:\users\tom\documents\visual studio 2012\Projects\KegelbahnDaemon\KegelbahnDaemon\obj\Release\KegelbahnDaemon.csproj.GenerateResource.Cache
+c:\users\tom\documents\visual studio 2012\Projects\KegelbahnDaemon\KegelbahnDaemon\obj\Release\KegelbahnDaemon.exe
+c:\users\tom\documents\visual studio 2012\Projects\KegelbahnDaemon\KegelbahnDaemon\obj\Release\KegelbahnDaemon.pdb

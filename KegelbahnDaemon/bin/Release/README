@@ -1,0 +1,22 @@
+HowTo
+
+* Config anpassen
+	<source>			Quelldateipfad der spiele, aus dem die neueste Datei auf den FTP-Server kopiert werden soll (z.B.: C:\Programme\Vollmer Werke\Controlcenter II\spiel)
+	<ftpserver>			FTP-Server auf den die Datei kopiert werden soll (z.B. ftp.strato.de)
+	<ftpuser>			FTP-benutzer (z.B. JustMe)
+	<ftppasswd>			Passwort des FTP-Benutzers (z.B. bogus)
+	<ftpfolder>			Pfad auf FTP-Server auf den die Datei kopiert werden soll (z.B. WordPress_01/wp-content/Liveticker/)
+	<interval>			Wie oft soll die neueste Datei aus dem Ordner "source" kopiert werden (Intervall in Sekunden. z.B. 30)
+
+* install.bat ausführen (als Administrator), um den Service im System zu installieren
+
+* Windows-Dienste öffnen
+
+* Kegelbahn Daemon suchen und starten
+
+
+Für eigenes Hosting:
+html/liveticker.html auf eigenen Webspace kopieren und nach eigenen Wünschen anpassen.
+
+
+Um die Werte in der Config zu ändern, bitte zuerst über Dienst den Service beenden, Werte ändern und dann den Service wieder starten (ggf. Administrator Berechtigung benötigt)

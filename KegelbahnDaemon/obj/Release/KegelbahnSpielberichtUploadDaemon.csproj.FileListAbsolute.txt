@@ -1,0 +1,12 @@
+c:\users\tom\documents\visual studio 2012\Projects\KegelbahnDaemon\KegelbahnDaemon\bin\Release\Config.xml
+c:\users\tom\documents\visual studio 2012\Projects\KegelbahnDaemon\KegelbahnDaemon\bin\Release\install.bat
+c:\users\tom\documents\visual studio 2012\Projects\KegelbahnDaemon\KegelbahnDaemon\bin\Release\uninstall.bat
+c:\users\tom\documents\visual studio 2012\Projects\KegelbahnDaemon\KegelbahnDaemon\bin\Release\KegelbahnSpielberichtUploadDaemon.exe.config
+c:\users\tom\documents\visual studio 2012\Projects\KegelbahnDaemon\KegelbahnDaemon\bin\Release\KegelbahnSpielberichtUploadDaemon.exe
+c:\users\tom\documents\visual studio 2012\Projects\KegelbahnDaemon\KegelbahnDaemon\bin\Release\KegelbahnSpielberichtUploadDaemon.pdb
+c:\users\tom\documents\visual studio 2012\Projects\KegelbahnDaemon\KegelbahnDaemon\obj\Release\KegelbahnSpielberichtUploadDaemon.ProjectInstaller.resources
+c:\users\tom\documents\visual studio 2012\Projects\KegelbahnDaemon\KegelbahnDaemon\obj\Release\KegelbahnSpielberichtUploadDaemon.csproj.GenerateResource.Cache
+c:\users\tom\documents\visual studio 2012\Projects\KegelbahnDaemon\KegelbahnDaemon\obj\Release\KegelbahnSpielberichtUploadDaemon.exe
+c:\users\tom\documents\visual studio 2012\Projects\KegelbahnDaemon\KegelbahnDaemon\obj\Release\KegelbahnSpielberichtUploadDaemon.pdb
+C:\Users\Tom\documents\visual studio 2012\Projects\KegelbahnDaemon\KegelbahnDaemon\obj\Release\KegelbahnSpielberichtUploadDaemon.Scheduler.resources
+C:\Users\Tom\documents\visual studio 2012\Projects\KegelbahnDaemon\KegelbahnDaemon\bin\Release\README

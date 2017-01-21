@@ -1,0 +1,380 @@
+<html>
+<HEAD><TITLE>Ergebnistafel</TITLE>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; CHARSET=iso8859-1">
+<META NAME="MS.LOCALE" CONTENT="EN-US">
+<META NAME="ROBOTS" CONTENT="all">
+<META NAME="wsotype" CONTENT="2">
+
+<meta http-equiv="cache-control" content="max-age=0" />
+<meta http-equiv="cache-control" content="no-cache" />
+<meta http-equiv="expires" content="0" />
+<meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+<meta http-equiv="pragma" content="no-cache" />
+
+<style type="text/css">
+<!--
+body {
+	font-family: Verdana, Arial,Helvetica, sans-serif;
+	color: #000000;
+	background-color: #FFF;
+	font-size: 1em;
+	font-weight: normal;
+	padding: 10px;
+}
+
+#MainH1 {
+	font-weight:bold;
+	font-size: 1.5em;
+}
+	
+#obj {
+	display:none;
+}
+	
+.breaker {
+clear:both;
+height:1px;
+overflow:hidden;
+}
+
+	
+	table {
+	border-width: 0.2em;
+	border-style: inset;
+	border-color: #002222;
+	border-collapse: seperate;
+	background-color: #cc0000;
+		font-weight:bold;
+		float:left; 
+		margin-right:0em;
+	}
+	
+	tr#head {
+		font-weight:bold;
+	}
+	
+	tr#head td.std {
+		border-width: 0.1em;
+		border-bottom: 0.0em;
+		border-top: 0.0em;
+		border-style: inset;
+		border-color: #002222;
+		text-align:center;
+		padding: 0em 0em;
+		font-size:1em;
+		white-space: nowrap;
+	}
+	
+	tr#head td.stdt {
+		border-bottom: 0.07em;
+		border-style: inset;
+		border-color: #002222;
+		color:##000000;
+		text-align:center;
+		padding: 0.1em 0.1em;
+		font-size: 3em;
+		font-weight:bold;
+		background-color:transparent;
+	}
+	
+	tr#head td.r1 {
+		border-width: 0.0em;
+		border-bottom: 0.0em;
+		border-style: inset;
+		border-color: #002222;
+		text-align:center;
+		padding: 0.1em 0.1em;
+		font-size:1em;
+		width:20%;
+		
+	}
+
+	tr#head td.m_r1 {
+		text-align:center;
+		padding: 1em 1emx;
+		font-size:1em;	
+	}
+
+	tr#head td.m_std {
+		text-align:center;
+		padding: 1em 1em;
+		font-size:1em;
+	}	
+		
+	tr#body3,
+	tr#body2,
+	tr#body {
+		font-weight: normal;
+	}
+	
+	tr#body2 {
+		background: transparent;		
+	}
+	
+	tr#body3 td.std,
+	tr#body3 td.m_std,
+	tr#body2 td.m_std,
+	tr#body2 td.std,
+	tr#body td.std {
+		border-width: 0.05em;
+		border-top: 0.1em;
+		border-bottom: 0.1em;
+		border-style: inset;
+		border-color: #002222;
+		background: #ffffff;
+		padding: 0.1em 0.1em;
+		margin:0.2em;
+		text-align: center;
+		font-size:1.4em/*1.5em*/;
+		vertical-align:center;
+	}
+	
+	tr#body3 td.r1,
+	tr#body2 td.m_r1,
+	tr#body2 td.r1,
+	tr#body td.r1 {	
+		border-width: 0.1em;
+		border-left: 0.0em;
+		border-right: 0.0em;
+		border-style: inset;
+		border-color: #002222;
+		background: #c0c0c0;
+		padding: 0.1em 0.1em;
+		text-align: left;
+		font-size:1.2em /*1.4em*/;
+		font-weight: normal;
+		margin-right:0.2em;
+		vertical-align:center;
+		width:20%;
+	}
+	
+	tr#body2 td.r1 {
+		background-color:#C0c0c0;
+	}
+
+	tr#body2 td.m_r1 {
+		background-color:#a1fff3;
+		font-size:1em;
+		padding: 0em 0em;
+	}
+
+	tr#body2 td.std {
+		background-color:#c0c0c0;
+	}
+	
+	tr#body2 td.m_std {
+		background-color:#191970;
+		font-size:1em;
+		padding:0em 0em;
+	}
+
+	tr#body3 {
+		background-color:transparent;
+	}
+
+	tr#body3 td.std {
+		border-bottom:0.0em solid #191970;
+		border-top:0.0em solid #191970;
+	}
+	tr#body3 td.r1 {
+		border-top:0.0em solid #191970;
+		border-bottom:0.0em solid #191970;
+	}
+	
+	.spdes {
+		background-color: #EEE;
+		color:#999;
+	}
+	
+	tr#bigfoot {
+	}
+	
+	tr#bigfoot td {
+		background-color:transparent;
+	}
+
+	tr#bigfoot td.bf2,
+	tr#bigfoot td.bf {
+		border-top:3px inset #000000;
+		border-left:3px inset #000000;
+		border-right:3px inset #000000;
+		border-bottom:3px inset #000000;
+		font-size: 4.3em;
+		font-weight:bold;
+		color: #FF0000;
+		background-color:#ffffff;
+		text-align:center;
+	}
+	
+	tr#bigfoot td.bf2 {
+		font-size: 2.2em;
+		font-weight:bold;
+		color: #0000FF;
+		background-color:#ffffff;
+	}
+	
+
+
+
+	td.std {
+		width:auto;
+		min-width: 37px !important;
+		/*max-width: 37px !important;*/
+	}
+-->
+</style>
+
+</HEAD>
+<body TOPMARGIN=0 BGPROPERTIES="FIXED" BGCOLOR="#FFFFFF" LINK="#000000" VLINK="#808080" ALINK="#000000">
+<BR>
+<h1 id="MainH1"></h1>
+
+<div id="obj">
+	<divo id="objtable">
+		<divh>
+				<TABLE style="width:100%;margin:0px;padding:0px;" cellpadding=0 cellspacing=0>
+					<thead><tr id="head">
+<td class="stdt" colspan=9 width="49%">#man0_name#</td>
+<td width="2%" style="background-color:#FFF;">&nbsp;</td>
+<td class="stdt" colspan=9 width="49%">#man1_name#</td></tr></thead>
+					<THEAD style="background-color:#FFFFCC;"><TR id="head">
+						<TD class="r1" style="text-align:left;">Name</TD>
+<TD class="std">#</TD>
+<TD class="std">1</TD>
+<TD class="std">2</TD>
+<TD class="std">3</TD>
+<TD class="std">4</TD>
+<TD class="std">Holz</TD>
+<TD class="std">SP</TD>
+<TD class="std">MP</TD>
+						<td style="background-color:#FFF;">&nbsp;</td>
+<TD class="std">MP</TD>
+<TD class="std">SP</TD>
+<TD class="std">Holz</TD>
+<TD class="std">4</TD>
+<TD class="std">3</TD>
+<TD class="std">2</TD>
+<TD class="std">1</TD>
+<TD class="std">#</TD>
+<TD class="r1" style="text-align:right;">Name</TD>
+						</TR></THEAD>
+		</divh>
+		<divt0>
+			<tr id="body">
+				<td class="r1 #man0_sp_style#" style="text-align:left;">#man0_sp_name#</td><td class="std #man0_sp_style#">#man0_sp_wurf#</td><td class="std #man0_sp_style#">#man0_sp_satz0#</td><td class="std #man0_sp_style#">#man0_sp_satz1#</td><td class="std #man0_sp_style#">#man0_sp_satz2#</td><td class="std #man0_sp_style#">#man0_sp_satz3#</td><td class="std #man0_sp_style#" style="font-weight:bold;">#man0_sp_gesamt#</td><td class="std #man0_sp_style#">#man0_sp_punkte#</td><td class="std #man0_sp_style#" style="font-weight:bold;">#man0_sp_manpunkte#</td>
+				<td style="background-color:#FFF;">&nbsp;</td><td class="std #man1_sp_style#" style="font-weight:bold;">#man1_sp_manpunkte#</td><td class="std #man1_sp_style#">#man1_sp_punkte#</td><td class="std #man1_sp_style#" style="font-weight:bold;">#man1_sp_gesamt#</td><td class="std #man1_sp_style#">#man1_sp_satz3#</td><td class="std #man1_sp_style#">#man1_sp_satz2#</td><td class="std #man1_sp_style#">#man1_sp_satz1#</td><td class="std #man1_sp_style#">#man1_sp_satz0#</td><td class="std #man1_sp_style#">#man1_sp_wurf#</td><td class="r1 #man1_sp_style#" style="text-align:right;padding-right:10px;">#man1_sp_name#</td></tr>
+		</divt0>
+		<divt1>
+			<tr id="body3">
+				<td class="r1 #man0_sp_style#" style="text-align:left;">#man0_sp_name#</td><td class="std #man0_sp_style#">#man0_sp_wurf#</td><td class="std #man0_sp_style#">#man0_sp_satz0#</td><td class="std #man0_sp_style#">#man0_sp_satz1#</td><td class="std #man0_sp_style#">#man0_sp_satz2#</td><td class="std #man0_sp_style#">#man0_sp_satz3#</td><td class="std #man0_sp_style#" style="font-weight:bold;">#man0_sp_gesamt#</td><td class="std #man0_sp_style#">#man0_sp_punkte#</td><td class="std #man0_sp_style#">#man0_sp_manpunkte#</td>
+				<td style="background-color:#FFF;">&nbsp;</td><td class="std #man1_sp_style#" style="">#man1_sp_manpunkte#</td><td class="std #man1_sp_style#">#man1_sp_punkte#</td><td class="std #man1_sp_style#" style="font-weight:bold;">#man1_sp_gesamt#</td><td class="std #man1_sp_style#">#man1_sp_satz3#</td><td class="std #man1_sp_style#">#man1_sp_satz2#</td><td class="std #man1_sp_style#">#man1_sp_satz1#</td><td class="std #man1_sp_style#">#man1_sp_satz0#</td><td class="std #man1_sp_style#">#man1_sp_wurf#</td><td class="r1 #man1_sp_style#" style="text-align:right;padding-right:10px;">#man1_sp_name#</td></tr>
+		</divt1>
+		<divf>
+			<tr>
+				<td style="font-size:1em;">&nbsp;</td>
+			</tr>
+			<tr id="bigfoot">
+				<td colspan=6>&nbsp;</td><td colspan=7 class="bf">#man0_punkte# - #man1_punkte#</td><td colspan=6>&nbsp;</td>
+			</tr>
+			<tr>
+				<td style="font-size:.5em;">&nbsp;</td>
+			</tr>
+			<tr id="bigfoot">
+				<td colspan=6>&nbsp;</td><td colspan=3 class="bf2">#man0_gesamt#</td><td >&nbsp;</td><td colspan=3 class="bf2">#man1_gesamt#</td><td colspan=6>&nbsp;</td>
+			</tr>			
+		</divf>
+	</divo>
+	<divo id="objfooter">
+		<divh>
+			<tr>
+				<td style="font-size:.5em;">&nbsp;</td>
+			</tr>
+		</divh>
+		<divt>
+			<tr id="body2" style="vertical-align:middle;">
+				<td class="r1" colspan=4 style="vertical-align:middle;font-size:0.7em;">#man0_name#</td><td class="std" ><span style="font-size:0.7em;">Wurf</span><br />#man0_wurf#</td><td class="std"><span style="font-size:0.7em;">Abr</span><br />#man0_abr#</td><td class="std"><span style="font-size:0.7em;">Volle</span><br />#man0_volle#</td><td class="std"><span style="font-size:0.7em;">Fw</span><br/>#man0_fehlwurf#</td><td class="std"><span style="font-size:0.7em;">&empty;</span><br/>#man0_durchschnitt#</td>
+				<td style="background:#FFF;">&nbsp;</td><td class="std" ><span style="font-size:0.7em;">&empty;</span><br/>#man1_durchschnitt#</td><td class="std"><span style="font-size:0.7em;">Fw</span><br/>#man1_fehlwurf#</td><td class="std"><span style="font-size:0.7em;">Volle</span><br />#man1_volle#</td><td class="std"><span style="font-size:0.7em;">Abr</span><br />#man1_abr#</td><td class="std"><span style="font-size:0.7em;">Wurf</span><br />#man1_wurf#</td><td class="r1" style="vertical-align:middle;font-size:0.7em; padding-right:10px;text-align:right;" colspan=4>#man1_name#</td>
+			</tr>
+		</divt>
+		<divf></table><div class="breaker" style="height:40px;"></div></divf>
+	</divo>
+</div>
+
+<div id="anzeige">
+				<TABLE style="width:100%;margin:0px;padding:0px;" cellpadding=0 cellspacing=0>
+					<thead><tr id="head">
+<td class="stdt" colspan=9 width="49%">1</td>
+<td width="2%" style="background-color:#FFF;">&nbsp;</td>
+<td class="stdt" colspan=9 width="49%">2</td></tr></thead>
+					<THEAD style="background-color:#FFFFCC;"><TR id="head">
+						<TD class="r1" style="text-align:left;">Name</TD>
+<TD class="std">#</TD>
+<TD class="std">1</TD>
+<TD class="std">2</TD>
+<TD class="std">3</TD>
+<TD class="std">4</TD>
+<TD class="std">Holz</TD>
+<TD class="std">SP</TD>
+<TD class="std">MP</TD>
+						<td style="background-color:#FFF;">&nbsp;</td>
+<TD class="std">MP</TD>
+<TD class="std">SP</TD>
+<TD class="std">Holz</TD>
+<TD class="std">4</TD>
+<TD class="std">3</TD>
+<TD class="std">2</TD>
+<TD class="std">1</TD>
+<TD class="std">#</TD>
+<TD class="r1" style="text-align:right;">Name</TD>
+						</TR></THEAD>
+		
+			<tr id="body">
+				<td class="r1 " style="text-align:left;">Sepp</td><td class="std ">120</td><td class="std ">123</td><td class="std ">137</td><td class="std ">137</td><td class="std ">115</td><td class="std " style="font-weight:bold;">512</td><td class="std ">0</td><td class="std " style="font-weight:bold;">0</td>
+				<td style="background-color:#FFF;">&nbsp;</td><td class="std " style="font-weight:bold;">0</td><td class="std ">0</td><td class="std " style="font-weight:bold;">0</td><td class="std ">0</td><td class="std ">0</td><td class="std ">0</td><td class="std ">0</td><td class="std ">3</td><td class="r1 " style="text-align:right;padding-right:10px;">---</td></tr>
+		
+			<tr id="body3">
+				<td class="r1 " style="text-align:left;">Hoss</td><td class="std ">120</td><td class="std ">114</td><td class="std ">134</td><td class="std ">154</td><td class="std ">138</td><td class="std " style="font-weight:bold;">540</td><td class="std ">3</td><td class="std ">1</td>
+				<td style="background-color:#FFF;">&nbsp;</td><td class="std " style="">0</td><td class="std ">1</td><td class="std " style="font-weight:bold;">482</td><td class="std ">112</td><td class="std ">127</td><td class="std ">116</td><td class="std ">127</td><td class="std ">120</td><td class="r1 " style="text-align:right;padding-right:10px;">Zierhut</td></tr>
+		
+			<tr id="body">
+				<td class="r1 " style="text-align:left;">---</td><td class="std ">0</td><td class="std ">0</td><td class="std ">0</td><td class="std ">0</td><td class="std ">0</td><td class="std " style="font-weight:bold;">0</td><td class="std ">0</td><td class="std " style="font-weight:bold;">0</td>
+				<td style="background-color:#FFF;">&nbsp;</td><td class="std " style="font-weight:bold;">0</td><td class="std ">0</td><td class="std " style="font-weight:bold;">0</td><td class="std ">0</td><td class="std ">0</td><td class="std ">0</td><td class="std ">0</td><td class="std ">0</td><td class="r1 " style="text-align:right;padding-right:10px;">---</td></tr>
+		
+			<tr id="body3">
+				<td class="r1 " style="text-align:left;">---</td><td class="std ">0</td><td class="std ">0</td><td class="std ">0</td><td class="std ">0</td><td class="std ">0</td><td class="std " style="font-weight:bold;">0</td><td class="std ">0</td><td class="std ">0</td>
+				<td style="background-color:#FFF;">&nbsp;</td><td class="std " style="">0</td><td class="std ">0</td><td class="std " style="font-weight:bold;">0</td><td class="std ">0</td><td class="std ">0</td><td class="std ">0</td><td class="std ">0</td><td class="std ">0</td><td class="r1 " style="text-align:right;padding-right:10px;">---</td></tr>
+		
+			<tr>
+				<td style="font-size:1em;">&nbsp;</td>
+			</tr>
+			<tr id="bigfoot">
+				<td colspan=6>&nbsp;</td><td colspan=7 class="bf">1 - 0</td><td colspan=6>&nbsp;</td>
+			</tr>
+			<tr>
+				<td style="font-size:.5em;">&nbsp;</td>
+			</tr>
+			<tr id="bigfoot">
+				<td colspan=6>&nbsp;</td><td colspan=3 class="bf2">1052</td><td >&nbsp;</td><td colspan=3 class="bf2">482</td><td colspan=6>&nbsp;</td>
+			</tr>			
+		
+			<tr>
+				<td style="font-size:.5em;">&nbsp;</td>
+			</tr>
+		
+			<tr id="body2" style="vertical-align:middle;">
+				<td class="r1" colspan=4 style="vertical-align:middle;font-size:0.7em;">1</td><td class="std" ><span style="font-size:0.7em;">Wurf</span><br />240</td><td class="std"><span style="font-size:0.7em;">Abr</span><br />317</td><td class="std"><span style="font-size:0.7em;">Volle</span><br />735</td><td class="std"><span style="font-size:0.7em;">Fw</span><br/>17</td><td class="std"><span style="font-size:0.7em;">&empty;</span><br/>526</td>
+				<td style="background:#FFF;">&nbsp;</td><td class="std" ><span style="font-size:0.7em;">&empty;</span><br/>482</td><td class="std"><span style="font-size:0.7em;">Fw</span><br/>19</td><td class="std"><span style="font-size:0.7em;">Volle</span><br />349</td><td class="std"><span style="font-size:0.7em;">Abr</span><br />133</td><td class="std"><span style="font-size:0.7em;">Wurf</span><br />123</td><td class="r1" style="vertical-align:middle;font-size:0.7em; padding-right:10px;text-align:right;" colspan=4>2</td>
+			</tr>
+		</table><div class="breaker" style="height:40px;"></div></div>
+
+	
+<!-- START_PAGE_FOOTER -->
+<BR>
+&copy; <A CLASS="clsIncCpyRt" HREF="http://www.kegelbahnshop.de" TARGET="_blank">Waldhauer GmbH</A>
+<BR>
+&amp; Designed by <A HREF="http://www.asv-neumarkt-sportkegeln.de" TARGET="_blank">ASV Neumarkt</A>
+<!-- END_PAGE_FOOTER -->
+</body>
+
+</html>
+

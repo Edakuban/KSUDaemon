@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<config>
+  <source>C:\Programme\Vollmer Werke\Controlcenter II\spiel</source>
+  <ftpserver>ftp.server.com</ftpserver>
+  <ftpuser>user</ftpuser>
+  <ftppasswd>passwd</ftppasswd>
+  <ftpfolder>livespiel</ftpfolder>
+  <interval>30</interval>
+</config>
